@@ -1,0 +1,18 @@
+<h1> SIGNUP!!</h1>
+
+<form method="POST" > 
+  {% csrf_token %}
+  USERNAME:
+  <br />
+  <input type="text" name="username">
+  <br />
+  Password:
+  <br />
+  <input type="password" name="password1">
+  <br />
+  Confirm Password:
+  <br />
+  <input type="password" name="password2">
+<br />
+    <input class="btn btn-primary"type="submit" value="signup!">
+</form>
